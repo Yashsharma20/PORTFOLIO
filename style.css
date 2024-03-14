@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(0, 0, 34);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    height: 100px;
+    background-color: rgb(15, 15, 55);
+
+}
+.left{
+    font-size: 1.8rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    margin: 100px 0px;
+    font-size: 2.5rem;
+   
+}
+.rightsection img{
+    margin: 50px 0px;
+    width: 80%;
+    image-rendering: crisp-edges;
+}
+.purple{
+    color: rgb(255, 0, 76);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: lavender;
+}
+#element{
+    color: rgb(255, 0, 76) ;
+}
+.secondsection{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+.about{
+    margin-left: 150px;
+    font-size: 2rem;
+}
+.image{
+  
+}
+.txt{
+
+}
+.secondsection > div{
+    margin: 50px 0;
+    width: 30%;
+}
+.image img{
+    width: 100%;
+}
+.txt{
+    margin: 50px 0;
+    width: 50%;
+}
+
+.Skills{ padding-top: 100px;
+    margin-left: 150px;
+    font-size: 2rem;
+}
+* {box-sizing:border-box}
+
+
+.container {
+    margin: auto;
+  width: 60%; 
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #808080;} 
+
+
+
+
+footer{
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+}
+.project{
+    padding-top: 100px;
+    margin-left: 150px;
+    font-size: 2rem;
+}
+.past{
+    display: flex;
+    margin: auto;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+.spotify img{margin: 50px 0px;
+    width: 40%;
+  
+}
+.netflix img{margin: 50px 0px;
+    width: 40%;
+    
+}
